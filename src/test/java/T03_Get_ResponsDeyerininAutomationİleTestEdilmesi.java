@@ -37,7 +37,7 @@ public class T03_Get_ResponsDeyerininAutomationİleTestEdilmesi {
                 .statusCode(200)
                 .contentType("application/json; charset=utf-8")
                 .header("Server","Heroku")
-                .statusLine("HTTP/1.3 200 OK")
+                .statusLine("HTTP/1.1 200 OK")
                 .time(lessThan(2000L));//cavab 1000 milli saniyeden az olmalıdır
 
     }

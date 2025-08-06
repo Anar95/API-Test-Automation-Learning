@@ -14,7 +14,7 @@ public class T01_GetRequest_ResponsBodyYazdırmaq {
 
         //1 Step Request Body ve endpoint hazırlama
 
-        String url = "https://restful-booker.herokuapp.com/booking/10";
+        String url = "https://jsonplaceholder.typicode.com/posts/70";
 
         // 2 Expected data hazırla
 
